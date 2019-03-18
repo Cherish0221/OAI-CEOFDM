@@ -1,0 +1,89 @@
+[ 36%] Built target PHY
+[ 36%] Built target SIMU
+[ 45%] Built target UTIL
+[ 63%] Built target LFDS
+[ 72%] Built target SCHED_LIB
+[100%] Built target LFDS7
+Scanning dependencies of target pdcchsim
+[100%] Building C object CMakeFiles/pdcchsim.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c.o
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c: In function ‘get_dci’:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:77:71: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI1_1_5MHz_TDD_t *)&DLSCH_alloc_pdu[0])->rballoc           = DLSCH_RB_ALLOC;
+                                                                       ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:98:68: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI0_1_5MHz_TDD_1_6_t*)&UL_alloc_pdu[0])->rballoc        = DLSCH_RB_ALLOC;
+                                                                    ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:134:66: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI0_5MHz_TDD_1_6_t*)&UL_alloc_pdu[0])->rballoc        = DLSCH_RB_ALLOC;
+                                                                  ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:170:67: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI0_10MHz_TDD_1_6_t*)&UL_alloc_pdu[0])->rballoc        = DLSCH_RB_ALLOC;
+                                                                   ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:223:64: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI1_1_5MHz_FDD_t *)&DLSCH_alloc_pdu[0])->rballoc    = DLSCH_RB_ALLOC;
+                                                                ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:243:64: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI0_1_5MHz_FDD_t*)&UL_alloc_pdu[0])->rballoc        = DLSCH_RB_ALLOC;
+                                                                ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:277:62: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI0_5MHz_FDD_t*)&UL_alloc_pdu[0])->rballoc        = DLSCH_RB_ALLOC;
+                                                              ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:51:24: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define DLSCH_RB_ALLOC ((uint16_t)0x1fbf) // igore DC component,RB13
+                        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:311:63: note: in expansion of macro ‘DLSCH_RB_ALLOC’
+       ((DCI0_10MHz_FDD_t*)&UL_alloc_pdu[0])->rballoc        = DLSCH_RB_ALLOC;
+                                                               ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c: In function ‘main’:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:1011:34: warning: passing argument 2 of ‘multipath_channel’ from incompatible pointer type [-Wincompatible-pointer-types]
+         multipath_channel(eNB2UE,s_re,s_im,r_re,r_im,
+                                  ^
+In file included from /home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:25:0:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:241:6: note: expected ‘double **’ but argument is of type ‘double (*)[61440]’
+ void multipath_channel(channel_desc_t *desc,
+      ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:1011:39: warning: passing argument 3 of ‘multipath_channel’ from incompatible pointer type [-Wincompatible-pointer-types]
+         multipath_channel(eNB2UE,s_re,s_im,r_re,r_im,
+                                       ^
+In file included from /home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:25:0:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:241:6: note: expected ‘double **’ but argument is of type ‘double (*)[61440]’
+ void multipath_channel(channel_desc_t *desc,
+      ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:1011:44: warning: passing argument 4 of ‘multipath_channel’ from incompatible pointer type [-Wincompatible-pointer-types]
+         multipath_channel(eNB2UE,s_re,s_im,r_re,r_im,
+                                            ^
+In file included from /home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:25:0:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:241:6: note: expected ‘double **’ but argument is of type ‘double (*)[61440]’
+ void multipath_channel(channel_desc_t *desc,
+      ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:1011:49: warning: passing argument 5 of ‘multipath_channel’ from incompatible pointer type [-Wincompatible-pointer-types]
+         multipath_channel(eNB2UE,s_re,s_im,r_re,r_im,
+                                                 ^
+In file included from /home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/pdcchsim.c:25:0:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/defs.h:241:6: note: expected ‘double **’ but argument is of type ‘double (*)[61440]’
+ void multipath_channel(channel_desc_t *desc,
+      ^
+[100%] Building C object CMakeFiles/pdcchsim.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope.c.o
+[100%] Linking C executable pdcchsim
+[100%] Built target pdcchsim

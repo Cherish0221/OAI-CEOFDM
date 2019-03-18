@@ -1,0 +1,8 @@
+Scanning dependencies of target oai_usrpdevif
+Building CXX object CMakeFiles/oai_usrpdevif.dir/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp.o
+In file included from /home/oo/openairinterface5g/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp:31:0:
+/usr/include/uhd/utils/thread_priority.hpp:10:17: note: #pragma message: This header is deprecated - please use <uhd/utils/thread.hpp> instead.
+ #pragma message "This header is deprecated - please use <uhd/utils/thread.hpp> instead."
+                 ^
+Linking CXX shared module liboai_usrpdevif.so
+Built target oai_usrpdevif

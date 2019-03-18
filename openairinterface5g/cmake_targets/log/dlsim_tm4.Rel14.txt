@@ -1,0 +1,290 @@
+Scanning dependencies of target PHY
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pss.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/sss.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pilots.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pilots_mbsfn.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_coding.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_modulation.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_demodulation.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_llr_computation.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/power_control.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_decoding.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_scrambling.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dci_tools.c.o
+[  0%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/uci_tools.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/lte_mcs.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pbch.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dci.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/phich.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pcfich.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pucch.c.o
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pucch.c: In function ‘pucchfmt3_ChannelEstimation’:
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pucch.c:1266:39: warning: ‘m_self’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  int16_t         m[NUMBER_OF_UE_MAX], m_self, same_m_number;
+                                       ^
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/prach.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pmch.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pch.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/group_hopping.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/srs_modulation.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/drs_modulation.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_modulation.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_demodulation.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_coding.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/rar_tools.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/print_stats.c.o
+[ 12%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/initial_sync.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/if4_tools.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_TRANSPORT/if5_tools.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/ofdm_mod.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/slot_fep.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/slot_fep_mbsfn.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/slot_fep_ul.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/ul_7_5_kHz.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/beamforming.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/MODULATION/compute_bf_weights.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/freq_equalization.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_sync_time.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_sync_timefreq.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_adjust_sync.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_dl_channel_estimation.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_dl_bf_channel_estimation.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_dl_mbsfn_channel_estimation.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_ul_channel_estimation.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_est_freq_offset.c.o
+[ 25%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_ue_measurements.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_eNB_measurements.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_ESTIMATION/adjust_gain.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_dl_cell_spec.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_dl_uespec.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_gold.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_gold_mbsfn.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_dl_mbsfn.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_ul_ref.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/lte_segmentation.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/ccoding_byte.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/ccoding_byte_lte.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/3gpplte_sse.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/crc_byte.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/3gpplte_turbo_decoder_sse_8bit.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/3gpplte_turbo_decoder_sse_16bit.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/3gpplte_turbo_decoder_avx2_16bit.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/lte_rate_matching.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/rate_matching.c.o
+[ 37%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/viterbi.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/CODING/viterbi_lte.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/INIT/lte_init.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/INIT/lte_parms.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/INIT/lte_param_init.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/file_output.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/cadd_vv.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_dfts.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/log2_approx.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/cmult_sv.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/cmult_vv.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/cdot_prod.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/signal_energy.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/dB_routines.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/sqrt.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/time_meas.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lut.c.o
+[ 50%] Linking C static library libPHY.a
+[ 50%] Built target PHY
+Scanning dependencies of target SIMU
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/random_channel.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/rangen_double.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/taus.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/multipath_channel.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/abstraction.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/TOOLS/multipath_tv_channel.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/RF/rf.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/RF/dac.c.o
+[ 50%] Building C object CMakeFiles/SIMU.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/RF/adc.c.o
+[ 50%] Linking C static library libSIMU.a
+[ 50%] Built target SIMU
+Scanning dependencies of target UTIL
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/CLI/cli.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/CLI/cli_cmd.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/CLI/cli_server.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/FIFO/pad_list.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LISTS/list.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LISTS/list2.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LOG/log.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LOG/vcd_signal_dumper.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/MATH/oml.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/MEM/mem_block.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG_create_dir.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG_detect_file.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG_generate_report.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG_parse_filename.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG_parse_XML.c.o
+[ 50%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG/OCG_save_XML.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/common.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/grid.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/job.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/mobility_parser.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/omg.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/rwalk.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/rwp.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/static.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/steadystaterwp.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/trace.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG/trace_hashtable.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OPT/probe.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG/otg_tx.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG/otg.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG/otg_kpi.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG/otg_models.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG/otg_form.c.o
+[ 62%] Building C object CMakeFiles/UTIL.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG/otg_rx.c.o
+[ 62%] Linking C static library libUTIL.a
+[ 62%] Built target UTIL
+Scanning dependencies of target LFDS
+[ 62%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
+[ 75%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
+[ 87%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
+[ 87%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
+[ 87%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
+[ 87%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
+[ 87%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
+[ 87%] Building C object CMakeFiles/LFDS.dir/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
+[ 87%] Linking C static library libLFDS.a
+[ 87%] Built target LFDS
+Scanning dependencies of target SCHED_LIB
+[ 87%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c.o
+[ 87%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/phy_procedures_lte_ue.c.o
+[ 87%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/phy_procedures_lte_common.c.o
+[ 87%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/phy_mac_stub.c.o
+[ 87%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/pucch_pc.c.o
+[ 87%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/pusch_pc.c.o
+[100%] Building C object CMakeFiles/SCHED_LIB.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SCHED/srs_pc.c.o
+[100%] Linking C static library libSCHED_LIB.a
+[100%] Built target SCHED_LIB
+[100%] Generating CMakeFiles/messages.xml
+['/usr/bin/castxml', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKER', '-DFIRMWARE_VERSION=No\\ svn\\ information', '-DPACKAGE_VERSION=Branch:\\ master\\ Abrev.\\ Hash:\\ ae0494b\\ Date:\\ Fri\\ Nov\\ 17\\ 15:59:21\\ 2017\\ +0100', '-DPACKAGE_BUGREPORT=openair4g-devel@lists.eurecom.fr', '-DXFORMS', '-DRel10=1', '-DS1AP_VERSION=R10', '-DX2AP_VERSION=R11', '-DNB_ANTENNAS_RX=2', '-DNB_ANTENNAS_TX=4', '-DNB_ANTENNAS_TXRX=2', '-DNone=1', '-DNone=1', '-DENABLE_SECURITY', '-DENABLE_USE_MME', '-DNO_RRM', '-DUSER_MODE', '-DDEADLINE_SCHEDULER', '-DOAI_NW_DRIVER_USE_NETLINK', '-DPACKAGE_NAME=unitary_tests_simulators', '-DENB_MODE', '-DENABLE_USE_CPU_EXECUTION_TIME', '-DENABLE_VCD', '-DENABLE_VCD_FIFO', '-DLOG_NO_THREAD', '-DOPENAIR_LTE', '-DDRIVER2013', '-DENABLE_FXP', '-DEXMIMO_IOT', '-DMAX_NUM_CCs=1', '-DNEW_FFT', '-DOPENAIR1', '-DPC_DSP', '-DPC_TARGET', '-DPERFECT_CE', '-DPHYSIM', '-DPHY_CONTEXT', '-DPUCCH', '-DENABLE_NAS_UE_LOGGING', '-DNAS_BUILT_IN_UE', '-DMAC_CONTEXT', '-DJUMBO_FRAME', '-DOPENAIR2', '-DTRACE_RLC_MUTEX', '-DLINK_ENB_PDCP_TO_GTPV1U', '-DNETTLE_VERSION_MAJOR=3', '-DNETTLE_VERSION_MINOR=2', '-DASN1_MINIMUM_VERSION=924', '-I/home/oo/openairinterface5g/openairinterface5g/cmake_targets/lte-simulators/build/CMakeFiles/Rel10', '-I/home/oo/openairinterface5g/openairinterface5g/cmake_targets/lte-simulators/build/CMakeFiles/R10.5', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/S1AP', '-I/home/oo/openairinterface5g/openairinterface5g/cmake_targets/lte-simulators/build/CMakeFiles/R11.2', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/X2AP', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/LIB', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/EXMIMO/DEFS', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/LMSSDR/USERSPACE/LIB', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/ETHERNET/USERSPACE/LIB', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/mobipass', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/COMMON', '-I/home/oo/openairinterface5g/openairinterface5g/cmake_targets/lte-simulators/build/CMakeFiles', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/COMMON', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LOG', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/COMMON', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/UTILS', '-I/home/oo/openairinterface5g/openairinterface5g/openair1', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/NAS', '-I/home/oo/openairinterface5g/openairinterface5g/openair2', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/LAYER2/RLC', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/LAYER2/RLC/TM_v9.3.0', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/RRC/LITE/MESSAGES', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/RRC/LITE', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/RAL-LTE/INTERFACE-802.21/INCLUDE', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/RAL-LTE/LTE_RAL_ENB/INCLUDE', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/RAL-LTE/LTE_RAL_UE/INCLUDE', '-I/home/oo/openairinterface5g/openairinterface5g/common/utils', '-I/home/oo/openairinterface5g/openairinterface5g/common/utils/itti', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/NAS/COMMON', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/NAS/COMMON/API/NETWORK', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/NAS/COMMON/EMM/MSG', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/NAS/COMMON/ESM/MSG', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/NAS/COMMON/IES', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/NAS/COMMON/UTIL', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/SECU', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/SCTP', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/S1AP', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/X2AP', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/UDP', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/GTPV1-U', '-I/home/oo/openairinterface5g/openairinterface5g/targets/COMMON', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/COMMON', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/LIB', '-I/home/oo/openairinterface5g/openairinterface5g/targets/ARCH/EXMIMO/DEFS', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/ENB_APP', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/ENB_APP/CONTROL_MODULES/MAC', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OSA', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/inc', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds7.0.0/liblfds700/inc', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/MEM', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LISTS', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/FIFO', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OCG', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/MATH', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/TIMER', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMG', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OTG', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/CLI', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OPT', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/OMV', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/RRC/LITE/MESSAGES', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/shared', '-I/home/oo/openairinterface5g/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/include', '-I/home/oo/openairinterface5g/openairinterface5g', '-I/home/oo/openairinterface5g/openairinterface5g/common/utils/hashtable', '-I/home/oo/openairinterface5g/openairinterface5g/common/utils/msc', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src', '-I/home/oo/openairinterface5g/openairinterface5g/openair2/UTIL/LFDS/liblfds7.0.0/liblfds700/src', '-I/usr/include/libxml2', '-I/usr/include/libxml2', '-I/usr/include/pgm-5.2', '-I/usr/lib/x86_64-linux-gnu/pgm-5.2/include', '-I/usr/include/atlas', '-I/usr/include/X11', '-I/home/oo/openairinterface5g/openairinterface5g/common/utils/T', '-std=gnu89', '/home/oo/openairinterface5g/openairinterface5g/common/utils/itti/intertask_interface_types.h', '--castxml-gccxml', '-o', '/home/oo/openairinterface5g/openairinterface5g/cmake_targets/lte-simulators/build/CMakeFiles/messages.xml']
+[100%] Generating CMakeFiles/messages_xml.h
+Scanning dependencies of target dlsim_tm4
+[100%] Building C object CMakeFiles/dlsim_tm4.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c.o
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c: In function ‘main’:
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:2242:107: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                ((round < num_rounds) && (((rank_indc[0] == 1) ||((rank_indc[0] == 0) && (rank_adapt==0))) &&
+                                                                                                           ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:5696:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 11 has type ‘unsigned int *’ [-Wformat=]
+     fprintf(time_meas_fd,"%f;%d;%d;%f; %2.1f%%;%f;%f;%d;%d;%d;%d;%d;%d;%d;%d;%e;%e;%e;%e;%d;%d;%e;%f;%f;",
+                          ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:5696:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 13 has type ‘unsigned int *’ [-Wformat=]
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:5696:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 15 has type ‘unsigned int *’ [-Wformat=]
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:5696:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 17 has type ‘unsigned int *’ [-Wformat=]
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:5696:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 23 has type ‘unsigned int *’ [-Wformat=]
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:5740:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 19 has type ‘unsigned int *’ [-Wformat=]
+     fprintf(time_meas_fd,"%f;%d;%d;%d;%d;%f;%2.1f;%f;%f;%d;%d;%d;%d;%d;%d;%d;%d;%e;%e;%e;%e;%d;%d;%e;%f;%f;",
+                          ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:2162:16: warning: unused variable ‘two_tb_flag’ [-Wunused-variable]
+       uint32_t two_tb_flag=0;
+                ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:304:8: warning: unused variable ‘buf’ [-Wunused-variable]
+   char buf[64];
+        ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:303:12: warning: unused variable ‘proc_fd’ [-Wunused-variable]
+   FILE    *proc_fd = NULL;
+            ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:302:11: warning: unused variable ‘cw_sic’ [-Wunused-variable]
+   int8_t  cw_sic;
+           ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:301:11: warning: unused variable ‘cw_non_sic’ [-Wunused-variable]
+   int8_t  cw_non_sic;
+           ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:300:10: warning: unused variable ‘cw_to_decode_interf_free’ [-Wunused-variable]
+   int8_t cw_to_decode_interf_free;
+          ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:299:10: warning: unused variable ‘cw_to_decode_interf’ [-Wunused-variable]
+   int8_t cw_to_decode_interf;
+          ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:285:54: warning: variable ‘mod_order1_init’ set but not used [-Wunused-but-set-variable]
+   int mcs0_init=0, mcs1_init=0, mod_order0_init = 0, mod_order1_init=0;
+                                                      ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:285:33: warning: variable ‘mod_order0_init’ set but not used [-Wunused-but-set-variable]
+   int mcs0_init=0, mcs1_init=0, mod_order0_init = 0, mod_order1_init=0;
+                                 ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:285:20: warning: variable ‘mcs1_init’ set but not used [-Wunused-but-set-variable]
+   int mcs0_init=0, mcs1_init=0, mod_order0_init = 0, mod_order1_init=0;
+                    ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:285:7: warning: variable ‘mcs0_init’ set but not used [-Wunused-but-set-variable]
+   int mcs0_init=0, mcs1_init=0, mod_order0_init = 0, mod_order1_init=0;
+       ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:281:10: warning: unused variable ‘thr_cw0_tm4_nonconst’ [-Wunused-variable]
+   double thr_cw0_tm4_nonconst = 0.0;
+          ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:279:10: warning: unused variable ‘thr_cw0_tm4’ [-Wunused-variable]
+   double thr_cw0_tm4 = 0.0, throug_tb0=0.0, throug_tb1=0.0, throug_tb0_acc[4]={0,0,0,0}, throug_tb1_acc[4]={0,0,0,0}, throug_tb0_acc_aver[4]={0,0,0,0}, throug_tb1_acc_aver[4]={0,0,0,0};
+          ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:256:11: warning: unused variable ‘fdd_flag’ [-Wunused-variable]
+   uint8_t fdd_flag = 0;
+           ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:252:7: warning: unused variable ‘bler’ [-Wunused-variable]
+   int bler;
+       ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:248:17: warning: variable ‘resend_cw0_cw1’ set but not used [-Wunused-but-set-variable]
+   unsigned char resend_cw0_cw1=1; //if 0 resend both cw in a normal way
+                 ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:247:17: warning: variable ‘resend_cw1’ set but not used [-Wunused-but-set-variable]
+   unsigned char resend_cw1=0; //if 0 resend only cw0
+                 ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/dlsim_tm4.c:198:7: warning: variable ‘re_allocated’ set but not used [-Wunused-but-set-variable]
+   int re_allocated;
+       ^
+[100%] Building C object CMakeFiles/dlsim_tm4.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c.o
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c: In function ‘phy_scope_UE’:
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:463:14: warning: variable ‘mod1’ set but not used [-Wunused-but-set-variable]
+     int mod0,mod1;
+              ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:463:9: warning: variable ‘mod0’ set but not used [-Wunused-but-set-variable]
+     int mod0,mod1;
+         ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:461:14: warning: unused variable ‘total_dlsch_bitrate’ [-Wunused-variable]
+     uint32_t total_dlsch_bitrate = phy_vars_ue->bitrate[eNB_id];
+              ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:454:69: warning: unused variable ‘bit_pbch’ [-Wunused-variable]
+     float *llr0, *bit0, *llr1, *bit1, *chest_f_abs, llr_pbch[1920], bit_pbch[1920], *llr_pdcch, *bit_pdcch;
+                                                                     ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:454:53: warning: unused variable ‘llr_pbch’ [-Wunused-variable]
+     float *llr0, *bit0, *llr1, *bit1, *chest_f_abs, llr_pbch[1920], bit_pbch[1920], *llr_pdcch, *bit_pdcch;
+                                                     ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:451:14: warning: variable ‘pbch_comp’ set but not used [-Wunused-but-set-variable]
+     int16_t *pbch_comp;
+              ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:450:13: warning: variable ‘pbch_llr’ set but not used [-Wunused-but-set-variable]
+     int8_t *pbch_llr;
+             ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:449:14: warning: variable ‘pdcch_comp’ set but not used [-Wunused-but-set-variable]
+     int16_t *pdcch_comp;
+              ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:448:13: warning: variable ‘pdcch_llr’ set but not used [-Wunused-but-set-variable]
+     int8_t *pdcch_llr;
+             ^
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c: At top level:
+/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope_tm4.c:34:13: warning: ‘ia_receiver_on_off’ defined but not used [-Wunused-function]
+ static void ia_receiver_on_off( FL_OBJECT *button, long arg)
+             ^
+[100%] Linking C executable dlsim_tm4
+[100%] Built target dlsim_tm4

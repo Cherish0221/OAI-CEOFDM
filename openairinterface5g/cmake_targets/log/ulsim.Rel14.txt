@@ -1,0 +1,11 @@
+[ 36%] Built target PHY
+[ 36%] Built target SIMU
+[ 45%] Built target UTIL
+[ 63%] Built target LFDS
+[ 72%] Built target SCHED_LIB
+[100%] Built target LFDS7
+Scanning dependencies of target ulsim
+[100%] Building C object CMakeFiles/ulsim.dir/home/oo/openairinterface5g/openairinterface5g/openair1/SIMULATION/LTE_PHY/ulsim.c.o
+[100%] Building C object CMakeFiles/ulsim.dir/home/oo/openairinterface5g/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope.c.o
+[100%] Linking C executable ulsim
+[100%] Built target ulsim
